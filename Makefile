@@ -1,2 +1,2 @@
 default:
-	gcc -lm -o test main.c && ./test
+	gcc -o test -lm main.c && ./test
