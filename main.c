@@ -24,7 +24,7 @@ int main()
                     }
                     float d = sqrt(pow((sqrt(r[0]*r[0] + r[2]*r[2]) - 1.0f),2) + r[1]*r[1]) - .5f;
                     t += d;
-                    if(d < 0.001 || t >= 10) break;
+                    if(d < 0.001 || t >= 5) break;
                 }
                 putchar(grad[(int) (t*t<11 ? t*t:11)]);
             }
