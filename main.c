@@ -6,7 +6,7 @@
 int main()
 {
     float z = 0.0f;
-    char *grad = "#%$&/+;:-,. ";
+    char *grad = "#$&%/+;:-,. ";
     while(1) {
         for(int y=0; y<50; ++y) {
             for(int x=0; x<100; ++x) {
